@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bookmark Manager</title>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:wght@500&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Bookmark Manager</h1>
+    <p class="subtitle">💗Bookmark your favorite sites💗 </p>
+
+    <div class="form-container">
+      <label for="siteName"> Site Name</label>
+      <input type="text" id="siteName" placeholder="Enter website name">
+
+      <label for="siteURL"> Site URL</label>
+      <input type="text" id="siteURL" placeholder="Enter website URL">
+
+      <button id="addBtn">Add Bookmark</button>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Index</th>
+          <th>Website Name</th>
+          <th>Visit</th>
+          <th>Delete</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody"></tbody>
+    </table>
+  </div>
+
+  <!-- Modal for validation -->
+  <div class="modal" id="alertBox">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h3>💕💕 Invalid Input</h3>
+      <p>Site name must contain at least 3 characters<br>
+         Site URL must be a valid one (ex: https://example.com)</p>
+    </div>
+  </div>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
