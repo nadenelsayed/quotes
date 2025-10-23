@@ -2,7 +2,7 @@
 
 
 🔹 **Live Demo:**  
-👉 [Click here to open the website](https://nadenelsayed.github.io/crud-operation-task/)  
+👉 [Click here to open the website](https://nadenelsayed.github.io/quotes/)  
 
 
 
